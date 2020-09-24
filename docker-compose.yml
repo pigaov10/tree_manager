@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  backend_api:
+    image: backend_api
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_APP=build.py
+      - FLASK_ENV=Development
+      - FLASK_DEBUG=True
