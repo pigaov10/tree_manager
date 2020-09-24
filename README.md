@@ -26,7 +26,17 @@ flask db migrate
 flask db upgrade
 ```
 127.0.0.1:5000
+
+
+```sh
 | /list | return all data |
+```
+```sh
 | /list/:id | return one row |
+```
+```sh
 | /modify/:id | update new row |
+```
+```sh
 | /delete/:id | delete new row |
+```
